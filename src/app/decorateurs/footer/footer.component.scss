@@ -1,0 +1,17 @@
+footer{
+    // margin-top: 5em;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgb(89, 89, 212);
+    color: white;
+    // padding-top: 1em;
+    // padding-bottom: 1em;
+
+    .innerFooter{
+        text-align: center;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+}

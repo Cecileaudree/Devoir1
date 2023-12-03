@@ -1,0 +1,55 @@
+header{
+    width: 100%;
+    margin: 0;
+    border: none;
+    background: rgb(89, 89, 212);
+    padding-top: 1em;
+    padding-bottom: 1em;
+    .navBar{
+        .navLinks{
+            width: 90%;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .logo{
+                font-size: 2em;
+                font-weight: bold;
+                text-transform: uppercase;
+
+                :nth-child(1){
+                    color: white;
+                }
+                :nth-child(2){
+                    color: orange;
+                }
+            }
+            .links{
+                width: 20%;
+                ul{
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    li{
+                        list-style-type: none;
+                        background-color: orange;
+                        padding: 1em;
+                        border: none;
+                        border-radius: 5px;
+                        transform: skew(-10deg , 0);
+                        a{
+                            text-decoration: none;
+                            color: white;
+                            font-size: 1.1em;
+                        }
+                    }:hover{
+                        cursor: pointer;
+                        transform: skew(10deg , 0);
+                    }
+                }
+            }
+        }
+    }
+}
