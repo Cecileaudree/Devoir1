@@ -25,10 +25,5 @@ describe('ProfolioComponent', () => {
     expect(app.Title).toEqual('Cecile-Audree');
   });
 
-  // it('should render title', () => {
-  //   const fixture = TestBed.createComponent(ProfolioComponent);
-  //   fixture.detectChanges();
-  //   const compiled = fixture.nativeElement as HTMLElement;
-  //   expect(compiled.querySelector('.content span')?.textContent).toContain("Cecile-Audree c'est mon code");
-  // });
+  
 });
