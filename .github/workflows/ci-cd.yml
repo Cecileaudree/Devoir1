@@ -23,7 +23,7 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: Run tests with code coverage
-        uses: coactions/setup-xvfb@v1
+        uses: coactions/setup-xvfb
         with:
           run: npm run test -- --no-watch --code-coverage
       - name: Install Vercel Cli
