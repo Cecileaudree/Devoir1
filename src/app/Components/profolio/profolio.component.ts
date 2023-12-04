@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./profolio.component.scss']
 })
 export class ProfolioComponent {
-
+Title="Cecile-Audree"
 }
